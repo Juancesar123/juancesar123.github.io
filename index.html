@@ -1,7 +1,14 @@
-<html>
+<html ng-app="mainApp">
     <head>
     </head>
-    <body>
+    <body ng-controller="appctrl">
         <h1>Hello world</h1>
+        <script src="angular/angular.min.js"></script>
+        <script>
+            var app = angular.module("mainApp",[]);
+            app.controller('appctrl',function($scope,$http){
+
+            })
+        </script>
     </body>
 </html>

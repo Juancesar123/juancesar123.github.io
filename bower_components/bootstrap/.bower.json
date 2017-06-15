@@ -1,0 +1,46 @@
+{
+  "name": "bootstrap",
+  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+  "keywords": [
+    "css",
+    "js",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "homepage": "https://getbootstrap.com",
+  "license": "MIT",
+  "moduleType": "globals",
+  "main": [
+    "scss/bootstrap.scss",
+    "dist/js/bootstrap.js"
+  ],
+  "ignore": [
+    "/.*",
+    "/_*",
+    "about",
+    "assets",
+    "docs",
+    "js/tests",
+    "nuget",
+    "CNAME",
+    "composer.json",
+    "Gruntfile.js"
+  ],
+  "dependencies": {
+    "jquery": ">=1.9.1",
+    "popper.js": "^1.10.1"
+  },
+  "_release": "8396039b4e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "v4-dev",
+    "commit": "8396039b4e2ca10ef06ee21b8c02288c2b01db07"
+  },
+  "_source": "https://github.com/twbs/bootstrap.git",
+  "_target": "v4-dev",
+  "_originalSource": "bootstrap"
+}
